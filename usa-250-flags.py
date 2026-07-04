@@ -52,7 +52,7 @@ for row in range(9):
 # --- 4. Add the 250 Years Commemoration Text ---
 # Placed neatly on the lower right side so it doesn't obscure the whole flag
 ax.text(fly * 0.65, hoist * 0.25, "250 YEARS\nOF INDEPENDENCE",
-        color='#3C3B6E', fontsize=40, fontweight='bold',
+        color='#3C3B6E', fontsize=42, fontweight='bold',
         ha='center', va='center', wrap=True, zorder=5,
         bbox=dict(facecolor='#FFFFFF', edgecolor='#3C3B6E', boxstyle='round,pad=0.4', lw=2))
 
