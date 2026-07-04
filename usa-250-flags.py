@@ -59,11 +59,3 @@ ax.text(fly * 0.65, hoist * 0.25, "250 YEARS\nOF INDEPENDENCE",
 # Show the final graphic
 plt.tight_layout()
 plt.show()
-
-echo "# usa-250-flag" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/cfoggia/usa-250-flag.git
-git push -u origin main
